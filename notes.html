@@ -1,0 +1,62 @@
+<!-- to get the basic boilerplate structure of an html page: type ' html and hit tab ' -->
+<!DOCTYPE html>
+<!-- key board shortcut for comments is ' ctrl + / ' -->
+<html>
+<head>
+	<title>Forms Exercise</title>
+</head>
+<body>
+	<h1>Register</h1>
+	<form action="https://www.wikipedia.org/">
+		<label for="firstname">First Name:</label>
+		<input id="firstname" type="text" placeholder="First Name" required>
+		<br>
+
+		<label for="lastname">Last Name:</label>
+		<input id="lastname" type="text" placeholder="Last Name" required>
+		<br>
+		<br>
+
+		<label for="email">Email:</label>
+		<input id="email" type="email" placeholder="Email" required>
+		<br>
+		<br>
+		<p>Do you prefer dogs or cats?</p>
+		<label for="dogs">Dogs:</label>
+		<input id="dogs" type="radio" value="DOGS" name="petChoice">
+		<br>
+
+		<label for="cats">Cats:</label>
+		<input id="cats" type="radio" value="CATS" name="petChoice">
+		<br>
+		<br>
+		<p>What is your favorite color?</p>
+		<select name="color">
+			<option>Red</option>
+			<option>Orange</option>
+			<option>Yellow</option>
+			<option>Green</option>
+			<option>Blue</option>
+			<option>Purple</option>
+		</select>
+		<br>
+		<br>
+		<p>What is your current mood?</p>
+		<select name="mood">
+			<option value="happy"> :) </option>
+			<option value="neutral"> :| </option>
+			<option value="sad"> :( </option>
+		</select>
+		<br>
+		<br>
+
+	<textarea name="paragraph" rows="10" cols="50">Write something here
+	</textarea>
+
+	<br>
+	<br>
+	<input  type="submit" >
+</form>
+
+</body>
+</html>
